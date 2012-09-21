@@ -66,7 +66,17 @@
                 android:targetClass="com.aokp.romcontrol.ROMControlActivity"
                 android:targetPackage="com.aokp.romcontrol" />
     </header>
+    
+     <!-- Update Me -->
+	<header android:icon="@drawable/ic_settings_update"
+		android:title="@string/update_settings_title">
+     	<intent
+			android:action="android.intent.action.MAIN"
+ 			android:targetPackage="com.acquariusoft.UpdateMe"
+        	android:targetClass="com.acquariusoft.UpdateMe.UpdateMeActivity" />
+	</header>
 
+	<!-- Themes -->
     <header android:icon="@drawable/ic_settings_themes"
             android:title="@string/themes_title">
         <intent
