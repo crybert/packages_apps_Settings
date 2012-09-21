@@ -67,13 +67,13 @@
                 android:targetPackage="com.aokp.romcontrol" />
     </header>
     
-     <!-- Update Me -->
+     <!-- OTAUpdater -->
 	<header android:icon="@drawable/ic_settings_update"
 		android:title="@string/update_settings_title">
      	<intent
 			android:action="android.intent.action.MAIN"
- 			android:targetPackage="com.acquariusoft.UpdateMe"
-        	android:targetClass="com.acquariusoft.UpdateMe.UpdateMeActivity" />
+ 			android:targetPackage="com.otaupdater"
+        	android:targetClass="com.otaupdater.OTAUpdaterActivity" />
 	</header>
 
 	<!-- Themes -->
